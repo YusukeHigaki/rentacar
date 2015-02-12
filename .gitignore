@@ -9,4 +9,5 @@
 /build/
 /vendor/
 /bin/
+/src/Dzb/RentacarBundle/Resources/public/bootstrap/*
 /composer.phar

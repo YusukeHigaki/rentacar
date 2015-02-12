@@ -6,3 +6,12 @@ dzb_rentacar:
 app:
     resource: @AppBundle/Controller/
     type:     annotation
+
+homepage:
+    pattern: /
+    default: {_controller: DzbRentacarBundle:Reservation:index}
+
+DzbRentacarBundle:
+    resource: "@DzbRentacarBundle/Controller/"
+    type: annotation
+    prefix: /
