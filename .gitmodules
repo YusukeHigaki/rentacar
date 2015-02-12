@@ -1,0 +1,6 @@
+[submodule "vendor/doctrine-fixtures"]
+	path = vendor/doctrine-fixtures
+	url = https://github.com/doctrine/data-fixtures.git
+[submodule "vendor/bundles/Doctrine/Bundle/FixturesBundle"]
+	path = vendor/bundles/Doctrine/Bundle/FixturesBundle
+	url = https://github.com/doctrine/DoctrineFixturesBundle
